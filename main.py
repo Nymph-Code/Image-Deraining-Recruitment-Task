@@ -11,13 +11,16 @@ from dataset import DerainDataset
 from utils import calculate_metrics, save_checkpoint, load_checkpoint, save_some_examples
 from models.baseline_net import BaselineNet
 from models.unet import UNet
+from models.derainnet import DerainNet
+from models.mymodel import MyModel
 from losses.perceptual_loss import PerceptualLoss
 
 
 def get_args():
     parser = argparse.ArgumentParser(description="Deraining Model Training")
     parser.add_argument("--data_dir", type=str, required=True, help="Path to the dataset")
-    parser.add_argument("--model", type=str, default="baseline", choices=["baseline", "unet"], help="Model to use")
+    parser.add_argument("--model", type=str, default="baseline", choices=["baseline", "unet", "derainnet", "mymodel"], help="Model to use")
+    parser.add_argument("--loss", type=str, default="l1", choices=["l1", "l2"],help="Pixel loss type")
     parser.add_argument("--mode", type=str, default="train", choices=["train", "test"], help="Train or test mode")
     parser.add_argument("--checkpoint", type=str, default=None, help="Path to checkpoint for testing")
 
@@ -83,11 +86,20 @@ def main():
         model = BaselineNet().to(device)
     elif args.model == "unet":
         model = UNet().to(device)
+    elif args.model == "derainnet":
+        model = DerainNet().to(device)
+    elif args.model == "mymodel":
+        model = MyModel().to(device)
+
 
 
     lpips_fn = lpips.LPIPS(net='alex').to(device)
 
-    pixel_loss_fn = nn.L1Loss()
+    if args.loss == "l1":                
+        pixel_loss_fn = nn.L1Loss()
+    else:
+        pixel_loss_fn = nn.MSELoss()
+
     perceptual_loss_fn = PerceptualLoss().to(device) if args.use_perceptual_loss else None
     optimizer = optim.Adam(model.parameters(), lr=args.lr)
 

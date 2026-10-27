@@ -1,0 +1,182 @@
+Using device: cuda
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: D:\Anaconda3\envs\derain\lib\site-packages\lpips\weights\v0.1\alex.pth
+
+--- Epoch 1/50 ---
+EVAL => Avg PSNR: 30.4573 | Avg SSIM: 0.8979 | Avg LPIPS: 0.0712
+=> Saving checkpoint
+
+--- Epoch 2/50 ---
+EVAL => Avg PSNR: 30.9617 | Avg SSIM: 0.9130 | Avg LPIPS: 0.0583
+=> Saving checkpoint
+
+--- Epoch 3/50 ---
+EVAL => Avg PSNR: 31.5691 | Avg SSIM: 0.9218 | Avg LPIPS: 0.0513
+=> Saving checkpoint
+
+--- Epoch 4/50 ---
+EVAL => Avg PSNR: 31.1777 | Avg SSIM: 0.9240 | Avg LPIPS: 0.0489
+
+--- Epoch 5/50 ---
+EVAL => Avg PSNR: 32.2019 | Avg SSIM: 0.9275 | Avg LPIPS: 0.0450
+=> Saving checkpoint
+
+--- Epoch 6/50 ---
+EVAL => Avg PSNR: 31.3861 | Avg SSIM: 0.9274 | Avg LPIPS: 0.0463
+
+--- Epoch 7/50 ---
+EVAL => Avg PSNR: 32.1045 | Avg SSIM: 0.9322 | Avg LPIPS: 0.0441
+
+--- Epoch 8/50 ---
+EVAL => Avg PSNR: 32.3723 | Avg SSIM: 0.9350 | Avg LPIPS: 0.0395
+=> Saving checkpoint
+
+--- Epoch 9/50 ---
+EVAL => Avg PSNR: 32.6558 | Avg SSIM: 0.9366 | Avg LPIPS: 0.0386
+=> Saving checkpoint
+
+--- Epoch 10/50 ---
+EVAL => Avg PSNR: 32.7028 | Avg SSIM: 0.9331 | Avg LPIPS: 0.0395
+=> Saving checkpoint
+
+--- Epoch 11/50 ---
+EVAL => Avg PSNR: 32.9654 | Avg SSIM: 0.9395 | Avg LPIPS: 0.0339
+=> Saving checkpoint
+
+--- Epoch 12/50 ---
+EVAL => Avg PSNR: 33.0242 | Avg SSIM: 0.9407 | Avg LPIPS: 0.0337
+=> Saving checkpoint
+
+--- Epoch 13/50 ---
+EVAL => Avg PSNR: 33.1903 | Avg SSIM: 0.9417 | Avg LPIPS: 0.0321
+=> Saving checkpoint
+
+--- Epoch 14/50 ---
+EVAL => Avg PSNR: 32.9428 | Avg SSIM: 0.9406 | Avg LPIPS: 0.0331
+
+--- Epoch 15/50 ---
+EVAL => Avg PSNR: 33.2006 | Avg SSIM: 0.9443 | Avg LPIPS: 0.0321
+=> Saving checkpoint
+
+--- Epoch 16/50 ---
+EVAL => Avg PSNR: 32.8937 | Avg SSIM: 0.9369 | Avg LPIPS: 0.0355
+
+--- Epoch 17/50 ---
+EVAL => Avg PSNR: 33.3904 | Avg SSIM: 0.9458 | Avg LPIPS: 0.0294
+=> Saving checkpoint
+
+--- Epoch 18/50 ---
+EVAL => Avg PSNR: 32.9133 | Avg SSIM: 0.9433 | Avg LPIPS: 0.0309
+
+--- Epoch 19/50 ---
+EVAL => Avg PSNR: 33.4615 | Avg SSIM: 0.9455 | Avg LPIPS: 0.0282
+=> Saving checkpoint
+
+--- Epoch 20/50 ---
+EVAL => Avg PSNR: 33.2881 | Avg SSIM: 0.9456 | Avg LPIPS: 0.0289
+
+--- Epoch 21/50 ---
+EVAL => Avg PSNR: 33.5557 | Avg SSIM: 0.9486 | Avg LPIPS: 0.0275
+=> Saving checkpoint
+
+--- Epoch 22/50 ---
+EVAL => Avg PSNR: 33.6788 | Avg SSIM: 0.9492 | Avg LPIPS: 0.0267
+=> Saving checkpoint
+
+--- Epoch 23/50 ---
+EVAL => Avg PSNR: 33.7591 | Avg SSIM: 0.9496 | Avg LPIPS: 0.0259
+=> Saving checkpoint
+
+--- Epoch 24/50 ---
+EVAL => Avg PSNR: 33.7711 | Avg SSIM: 0.9502 | Avg LPIPS: 0.0259
+=> Saving checkpoint
+
+--- Epoch 25/50 ---
+EVAL => Avg PSNR: 33.7186 | Avg SSIM: 0.9493 | Avg LPIPS: 0.0260
+
+--- Epoch 26/50 ---
+EVAL => Avg PSNR: 33.0350 | Avg SSIM: 0.9390 | Avg LPIPS: 0.0331
+
+--- Epoch 27/50 ---
+EVAL => Avg PSNR: 33.8532 | Avg SSIM: 0.9518 | Avg LPIPS: 0.0253
+=> Saving checkpoint
+
+--- Epoch 28/50 ---
+EVAL => Avg PSNR: 33.8670 | Avg SSIM: 0.9503 | Avg LPIPS: 0.0254
+=> Saving checkpoint
+
+--- Epoch 29/50 ---
+EVAL => Avg PSNR: 33.9041 | Avg SSIM: 0.9520 | Avg LPIPS: 0.0247
+=> Saving checkpoint
+
+--- Epoch 30/50 ---
+EVAL => Avg PSNR: 33.8865 | Avg SSIM: 0.9511 | Avg LPIPS: 0.0247
+
+--- Epoch 31/50 ---
+EVAL => Avg PSNR: 33.9620 | Avg SSIM: 0.9522 | Avg LPIPS: 0.0247
+=> Saving checkpoint
+
+--- Epoch 32/50 ---
+EVAL => Avg PSNR: 33.8382 | Avg SSIM: 0.9492 | Avg LPIPS: 0.0251
+
+--- Epoch 33/50 ---
+EVAL => Avg PSNR: 34.0542 | Avg SSIM: 0.9535 | Avg LPIPS: 0.0243
+=> Saving checkpoint
+
+--- Epoch 34/50 ---
+EVAL => Avg PSNR: 34.1217 | Avg SSIM: 0.9536 | Avg LPIPS: 0.0231
+=> Saving checkpoint
+
+--- Epoch 35/50 ---
+EVAL => Avg PSNR: 34.0650 | Avg SSIM: 0.9538 | Avg LPIPS: 0.0239
+
+--- Epoch 36/50 ---
+EVAL => Avg PSNR: 34.1593 | Avg SSIM: 0.9548 | Avg LPIPS: 0.0233
+=> Saving checkpoint
+
+--- Epoch 37/50 ---
+EVAL => Avg PSNR: 34.1674 | Avg SSIM: 0.9535 | Avg LPIPS: 0.0225
+=> Saving checkpoint
+
+--- Epoch 38/50 ---
+EVAL => Avg PSNR: 33.8655 | Avg SSIM: 0.9535 | Avg LPIPS: 0.0248
+
+--- Epoch 39/50 ---
+EVAL => Avg PSNR: 34.2413 | Avg SSIM: 0.9544 | Avg LPIPS: 0.0222
+=> Saving checkpoint
+
+--- Epoch 40/50 ---
+EVAL => Avg PSNR: 34.2571 | Avg SSIM: 0.9551 | Avg LPIPS: 0.0213
+=> Saving checkpoint
+
+--- Epoch 41/50 ---
+EVAL => Avg PSNR: 34.1871 | Avg SSIM: 0.9547 | Avg LPIPS: 0.0216
+
+--- Epoch 42/50 ---
+EVAL => Avg PSNR: 34.2335 | Avg SSIM: 0.9552 | Avg LPIPS: 0.0220
+
+--- Epoch 43/50 ---
+EVAL => Avg PSNR: 34.2129 | Avg SSIM: 0.9559 | Avg LPIPS: 0.0223
+
+--- Epoch 44/50 ---
+EVAL => Avg PSNR: 34.1885 | Avg SSIM: 0.9556 | Avg LPIPS: 0.0232
+
+--- Epoch 45/50 ---
+EVAL => Avg PSNR: 34.2255 | Avg SSIM: 0.9542 | Avg LPIPS: 0.0235
+
+--- Epoch 46/50 ---
+EVAL => Avg PSNR: 34.1158 | Avg SSIM: 0.9552 | Avg LPIPS: 0.0253
+
+--- Epoch 47/50 ---
+EVAL => Avg PSNR: 34.4423 | Avg SSIM: 0.9574 | Avg LPIPS: 0.0212
+=> Saving checkpoint
+
+--- Epoch 48/50 ---
+EVAL => Avg PSNR: 34.2024 | Avg SSIM: 0.9560 | Avg LPIPS: 0.0234
+
+--- Epoch 49/50 ---
+EVAL => Avg PSNR: 34.2155 | Avg SSIM: 0.9562 | Avg LPIPS: 0.0223
+
+--- Epoch 50/50 ---
+EVAL => Avg PSNR: 34.4588 | Avg SSIM: 0.9569 | Avg LPIPS: 0.0203
+=> Saving checkpoint

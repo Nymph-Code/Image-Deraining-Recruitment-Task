@@ -1,8 +1,55 @@
 import torch
 import numpy as np
-from skimage.metrics import peak_signal_noise_ratio as psnr
 from skimage.metrics import structural_similarity as ssim
 from torchvision.utils import save_image
+
+
+# ══════════════════════════════════════════════════════════════
+#  附加题 3.3：手写 PSNR
+# ══════════════════════════════════════════════════════════════
+#
+#  目标：写一个函数，能顶替 skimage.metrics.peak_signal_noise_ratio
+#
+#  ── 接口（必须和 skimage 对得上，不然调用会报错）────────────
+#
+#      my_psnr(img1, img2, data_range=1.0)  ->  float
+#
+#      img1 / img2 : numpy 数组，形状 (128, 128, 3)，值域 [0, 1]
+#      data_range  : 像素的最大取值，这里传 1.0
+#
+#  ── 要做的三件事 ──────────────────────────────────────────
+#
+#  1. 算 MSE
+#        两张图逐元素相减 → 平方 → 对【全部元素】求平均
+#        三个坐标：批内第 i 张图、128 行、128 列、3 个通道
+#        一共 128 × 128 × 3 = 49152 个数，一起平均
+#        （不是分通道算完再平均，用 np.mean 一把过就对）
+#
+#  2. 套公式
+#        PSNR = 10 * log10( data_range ** 2 / MSE )
+#        data_range = 1.0 时，分子就是 1
+#
+#  3. 处理边界情况
+#        两张图完全相同时 MSE = 0，log10(0) = inf，
+#        而且 numpy 会刷一行 RuntimeWarning: divide by zero
+#        你要决定 MSE 为 0 时返回什么，并且让它和 skimage 的行为一致
+#        （提示：先跑一次 skimage 看它对相同图片返回什么，再决定）
+#
+#  ── 写完怎么验证 ──────────────────────────────────────────
+#
+#  1. 单独对比：拿同一对图，你的函数和 skimage 各算一次，数值应该相同
+#
+#  2. 整体回归：在 repo 目录下执行
+#        python main.py --data_dir "./data/Rain200L" --model baseline --mode test --checkpoint "checkpoints/best_baseline.pth.tar"
+#     checkpoint 是第 96 轮保存的，那一轮的 PSNR 是 33.9059，
+#     换掉之后测试结果应该落在这个数附近（不会完全相等，因为数据加载顺序不同）
+
+def my_psnr(img1, img2, data_range=1.0):
+    MSE = np.mean((img1-img2)**2)
+    if MSE == 0:
+        return float("inf")
+    PSNR = 10 * np.log10(data_range**2/MSE)
+    return(PSNR)
 
 
 def calculate_metrics(img1, img2, lpips_fn):
@@ -14,7 +61,7 @@ def calculate_metrics(img1, img2, lpips_fn):
 
     batch_psnr, batch_ssim = 0, 0
     for i in range(img1_np.shape[0]):
-        batch_psnr += psnr(img1_np[i], img2_np[i], data_range=1.0)
+        batch_psnr += my_psnr(img1_np[i], img2_np[i], data_range=1.0)
         batch_ssim += ssim(img1_np[i], img2_np[i], data_range=1.0, multichannel=True, channel_axis=2, win_size=7)
 
     avg_psnr = batch_psnr / img1_np.shape[0]
