@@ -157,12 +157,12 @@ VGG 参数有没有梯度    False
 光把感知损失写对还不够，得看它到底有没有用。同一个 UNet 训了两遍，命令行只差一个开关。
 
 ```text
-数据          Rain200L，训练 3600 张 / 测试 400 张
+数据          Rain200L，训练 1800 对 / 测试 200 对（共 3600 / 400 个图像文件）
 输入          统一 resize 到 128×128
 batch / lr / epochs        8 / 1e-4 / 20
 λ_pixel / λ_perceptual     1.0 / 0.1
-A 组  python main.py --model unet --use_perceptual_loss
-B 组  python main.py --model unet
+A 组  python main.py --data_dir "./data/Rain200L" --model unet --use_perceptual_loss
+B 组  python main.py --data_dir "./data/Rain200L" --model unet
 ```
 
 两组的模型、数据路径、优化器、学习率、轮数都一样，我主动改的只有那 0.1 的感知项。

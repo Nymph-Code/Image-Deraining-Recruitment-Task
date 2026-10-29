@@ -1,0 +1,633 @@
+Using device: cuda
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+D:\Anaconda3\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+D:\Anaconda3\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=AlexNet_Weights.IMAGENET1K_V1`. You can also use `weights=AlexNet_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loading model from: D:\Anaconda3\envs\pytorch\lib\site-packages\lpips\weights\v0.1\alex.pth
+
+--- Epoch 1/200 ---
+EVAL => Avg PSNR: 31.2807 | Avg SSIM: 0.9143 | Avg LPIPS: 0.0629
+=> Saving checkpoint
+
+--- Epoch 2/200 ---
+EVAL => Avg PSNR: 32.0603 | Avg SSIM: 0.9272 | Avg LPIPS: 0.0464
+=> Saving checkpoint
+
+--- Epoch 3/200 ---
+EVAL => Avg PSNR: 32.7251 | Avg SSIM: 0.9351 | Avg LPIPS: 0.0391
+=> Saving checkpoint
+
+--- Epoch 4/200 ---
+EVAL => Avg PSNR: 33.0238 | Avg SSIM: 0.9389 | Avg LPIPS: 0.0355
+=> Saving checkpoint
+
+--- Epoch 5/200 ---
+EVAL => Avg PSNR: 33.1986 | Avg SSIM: 0.9402 | Avg LPIPS: 0.0328
+=> Saving checkpoint
+
+--- Epoch 6/200 ---
+EVAL => Avg PSNR: 33.0512 | Avg SSIM: 0.9411 | Avg LPIPS: 0.0325
+
+--- Epoch 7/200 ---
+EVAL => Avg PSNR: 33.2812 | Avg SSIM: 0.9435 | Avg LPIPS: 0.0338
+=> Saving checkpoint
+
+--- Epoch 8/200 ---
+EVAL => Avg PSNR: 33.6767 | Avg SSIM: 0.9463 | Avg LPIPS: 0.0283
+=> Saving checkpoint
+
+--- Epoch 9/200 ---
+EVAL => Avg PSNR: 33.7671 | Avg SSIM: 0.9478 | Avg LPIPS: 0.0294
+=> Saving checkpoint
+
+--- Epoch 10/200 ---
+EVAL => Avg PSNR: 33.8458 | Avg SSIM: 0.9481 | Avg LPIPS: 0.0262
+=> Saving checkpoint
+
+--- Epoch 11/200 ---
+EVAL => Avg PSNR: 34.0133 | Avg SSIM: 0.9506 | Avg LPIPS: 0.0254
+=> Saving checkpoint
+
+--- Epoch 12/200 ---
+EVAL => Avg PSNR: 33.5531 | Avg SSIM: 0.9477 | Avg LPIPS: 0.0287
+
+--- Epoch 13/200 ---
+EVAL => Avg PSNR: 34.0428 | Avg SSIM: 0.9515 | Avg LPIPS: 0.0233
+=> Saving checkpoint
+
+--- Epoch 14/200 ---
+EVAL => Avg PSNR: 33.4367 | Avg SSIM: 0.9470 | Avg LPIPS: 0.0306
+
+--- Epoch 15/200 ---
+EVAL => Avg PSNR: 34.0578 | Avg SSIM: 0.9523 | Avg LPIPS: 0.0222
+=> Saving checkpoint
+
+--- Epoch 16/200 ---
+EVAL => Avg PSNR: 34.4040 | Avg SSIM: 0.9555 | Avg LPIPS: 0.0214
+=> Saving checkpoint
+
+--- Epoch 17/200 ---
+EVAL => Avg PSNR: 34.4717 | Avg SSIM: 0.9566 | Avg LPIPS: 0.0204
+=> Saving checkpoint
+
+--- Epoch 18/200 ---
+EVAL => Avg PSNR: 34.3898 | Avg SSIM: 0.9553 | Avg LPIPS: 0.0231
+
+--- Epoch 19/200 ---
+EVAL => Avg PSNR: 34.5713 | Avg SSIM: 0.9573 | Avg LPIPS: 0.0193
+=> Saving checkpoint
+
+--- Epoch 20/200 ---
+EVAL => Avg PSNR: 34.4185 | Avg SSIM: 0.9575 | Avg LPIPS: 0.0213
+
+--- Epoch 21/200 ---
+EVAL => Avg PSNR: 34.4782 | Avg SSIM: 0.9576 | Avg LPIPS: 0.0210
+
+--- Epoch 22/200 ---
+EVAL => Avg PSNR: 34.5538 | Avg SSIM: 0.9583 | Avg LPIPS: 0.0204
+
+--- Epoch 23/200 ---
+EVAL => Avg PSNR: 34.7873 | Avg SSIM: 0.9600 | Avg LPIPS: 0.0186
+=> Saving checkpoint
+
+--- Epoch 24/200 ---
+EVAL => Avg PSNR: 34.6370 | Avg SSIM: 0.9592 | Avg LPIPS: 0.0203
+
+--- Epoch 25/200 ---
+EVAL => Avg PSNR: 34.7170 | Avg SSIM: 0.9593 | Avg LPIPS: 0.0187
+
+--- Epoch 26/200 ---
+EVAL => Avg PSNR: 34.7990 | Avg SSIM: 0.9604 | Avg LPIPS: 0.0176
+=> Saving checkpoint
+
+--- Epoch 27/200 ---
+EVAL => Avg PSNR: 34.7744 | Avg SSIM: 0.9604 | Avg LPIPS: 0.0191
+
+--- Epoch 28/200 ---
+EVAL => Avg PSNR: 34.8483 | Avg SSIM: 0.9610 | Avg LPIPS: 0.0173
+=> Saving checkpoint
+
+--- Epoch 29/200 ---
+EVAL => Avg PSNR: 34.8748 | Avg SSIM: 0.9612 | Avg LPIPS: 0.0183
+=> Saving checkpoint
+
+--- Epoch 30/200 ---
+EVAL => Avg PSNR: 34.8464 | Avg SSIM: 0.9609 | Avg LPIPS: 0.0187
+
+--- Epoch 31/200 ---
+EVAL => Avg PSNR: 34.8974 | Avg SSIM: 0.9617 | Avg LPIPS: 0.0184
+=> Saving checkpoint
+
+--- Epoch 32/200 ---
+EVAL => Avg PSNR: 34.8451 | Avg SSIM: 0.9615 | Avg LPIPS: 0.0185
+
+--- Epoch 33/200 ---
+EVAL => Avg PSNR: 34.9799 | Avg SSIM: 0.9622 | Avg LPIPS: 0.0168
+=> Saving checkpoint
+
+--- Epoch 34/200 ---
+EVAL => Avg PSNR: 34.6407 | Avg SSIM: 0.9608 | Avg LPIPS: 0.0189
+
+--- Epoch 35/200 ---
+EVAL => Avg PSNR: 34.9880 | Avg SSIM: 0.9627 | Avg LPIPS: 0.0167
+=> Saving checkpoint
+
+--- Epoch 36/200 ---
+EVAL => Avg PSNR: 34.9300 | Avg SSIM: 0.9624 | Avg LPIPS: 0.0161
+
+--- Epoch 37/200 ---
+EVAL => Avg PSNR: 34.7036 | Avg SSIM: 0.9620 | Avg LPIPS: 0.0191
+
+--- Epoch 38/200 ---
+EVAL => Avg PSNR: 34.8713 | Avg SSIM: 0.9624 | Avg LPIPS: 0.0181
+
+--- Epoch 39/200 ---
+EVAL => Avg PSNR: 34.8373 | Avg SSIM: 0.9619 | Avg LPIPS: 0.0178
+
+--- Epoch 40/200 ---
+EVAL => Avg PSNR: 35.0737 | Avg SSIM: 0.9637 | Avg LPIPS: 0.0167
+=> Saving checkpoint
+
+--- Epoch 41/200 ---
+EVAL => Avg PSNR: 35.0661 | Avg SSIM: 0.9626 | Avg LPIPS: 0.0160
+
+--- Epoch 42/200 ---
+EVAL => Avg PSNR: 34.9723 | Avg SSIM: 0.9631 | Avg LPIPS: 0.0164
+
+--- Epoch 43/200 ---
+EVAL => Avg PSNR: 34.9059 | Avg SSIM: 0.9625 | Avg LPIPS: 0.0169
+
+--- Epoch 44/200 ---
+EVAL => Avg PSNR: 34.9897 | Avg SSIM: 0.9632 | Avg LPIPS: 0.0160
+
+--- Epoch 45/200 ---
+EVAL => Avg PSNR: 35.0385 | Avg SSIM: 0.9633 | Avg LPIPS: 0.0176
+
+--- Epoch 46/200 ---
+EVAL => Avg PSNR: 35.0723 | Avg SSIM: 0.9640 | Avg LPIPS: 0.0158
+
+--- Epoch 47/200 ---
+EVAL => Avg PSNR: 34.9306 | Avg SSIM: 0.9630 | Avg LPIPS: 0.0173
+
+--- Epoch 48/200 ---
+EVAL => Avg PSNR: 34.9235 | Avg SSIM: 0.9635 | Avg LPIPS: 0.0162
+
+--- Epoch 49/200 ---
+EVAL => Avg PSNR: 34.8846 | Avg SSIM: 0.9624 | Avg LPIPS: 0.0180
+
+--- Epoch 50/200 ---
+EVAL => Avg PSNR: 35.0272 | Avg SSIM: 0.9640 | Avg LPIPS: 0.0161
+
+--- Epoch 51/200 ---
+EVAL => Avg PSNR: 34.9121 | Avg SSIM: 0.9635 | Avg LPIPS: 0.0167
+
+--- Epoch 52/200 ---
+EVAL => Avg PSNR: 35.0959 | Avg SSIM: 0.9644 | Avg LPIPS: 0.0159
+=> Saving checkpoint
+
+--- Epoch 53/200 ---
+EVAL => Avg PSNR: 35.0941 | Avg SSIM: 0.9644 | Avg LPIPS: 0.0157
+
+--- Epoch 54/200 ---
+EVAL => Avg PSNR: 35.1205 | Avg SSIM: 0.9648 | Avg LPIPS: 0.0153
+=> Saving checkpoint
+
+--- Epoch 55/200 ---
+EVAL => Avg PSNR: 34.9599 | Avg SSIM: 0.9638 | Avg LPIPS: 0.0171
+
+--- Epoch 56/200 ---
+EVAL => Avg PSNR: 34.9003 | Avg SSIM: 0.9635 | Avg LPIPS: 0.0177
+
+--- Epoch 57/200 ---
+EVAL => Avg PSNR: 34.9959 | Avg SSIM: 0.9643 | Avg LPIPS: 0.0172
+
+--- Epoch 58/200 ---
+EVAL => Avg PSNR: 35.0278 | Avg SSIM: 0.9643 | Avg LPIPS: 0.0164
+
+--- Epoch 59/200 ---
+EVAL => Avg PSNR: 35.0021 | Avg SSIM: 0.9643 | Avg LPIPS: 0.0158
+
+--- Epoch 60/200 ---
+EVAL => Avg PSNR: 35.0767 | Avg SSIM: 0.9642 | Avg LPIPS: 0.0150
+
+--- Epoch 61/200 ---
+EVAL => Avg PSNR: 35.1854 | Avg SSIM: 0.9652 | Avg LPIPS: 0.0150
+=> Saving checkpoint
+
+--- Epoch 62/200 ---
+EVAL => Avg PSNR: 35.0971 | Avg SSIM: 0.9648 | Avg LPIPS: 0.0156
+
+--- Epoch 63/200 ---
+EVAL => Avg PSNR: 34.7760 | Avg SSIM: 0.9629 | Avg LPIPS: 0.0161
+
+--- Epoch 64/200 ---
+EVAL => Avg PSNR: 35.0745 | Avg SSIM: 0.9645 | Avg LPIPS: 0.0159
+
+--- Epoch 65/200 ---
+EVAL => Avg PSNR: 34.9554 | Avg SSIM: 0.9644 | Avg LPIPS: 0.0157
+
+--- Epoch 66/200 ---
+EVAL => Avg PSNR: 35.0144 | Avg SSIM: 0.9644 | Avg LPIPS: 0.0154
+
+--- Epoch 67/200 ---
+EVAL => Avg PSNR: 34.9596 | Avg SSIM: 0.9643 | Avg LPIPS: 0.0164
+
+--- Epoch 68/200 ---
+EVAL => Avg PSNR: 35.0610 | Avg SSIM: 0.9647 | Avg LPIPS: 0.0167
+
+--- Epoch 69/200 ---
+EVAL => Avg PSNR: 35.0618 | Avg SSIM: 0.9649 | Avg LPIPS: 0.0157
+
+--- Epoch 70/200 ---
+EVAL => Avg PSNR: 35.1195 | Avg SSIM: 0.9648 | Avg LPIPS: 0.0157
+
+--- Epoch 71/200 ---
+EVAL => Avg PSNR: 34.9079 | Avg SSIM: 0.9645 | Avg LPIPS: 0.0164
+
+--- Epoch 72/200 ---
+EVAL => Avg PSNR: 35.0804 | Avg SSIM: 0.9653 | Avg LPIPS: 0.0153
+
+--- Epoch 73/200 ---
+EVAL => Avg PSNR: 34.8759 | Avg SSIM: 0.9641 | Avg LPIPS: 0.0169
+
+--- Epoch 74/200 ---
+EVAL => Avg PSNR: 34.9255 | Avg SSIM: 0.9643 | Avg LPIPS: 0.0162
+
+--- Epoch 75/200 ---
+EVAL => Avg PSNR: 35.0724 | Avg SSIM: 0.9652 | Avg LPIPS: 0.0150
+
+--- Epoch 76/200 ---
+EVAL => Avg PSNR: 34.4882 | Avg SSIM: 0.9617 | Avg LPIPS: 0.0198
+
+--- Epoch 77/200 ---
+EVAL => Avg PSNR: 35.1747 | Avg SSIM: 0.9654 | Avg LPIPS: 0.0157
+
+--- Epoch 78/200 ---
+EVAL => Avg PSNR: 35.0383 | Avg SSIM: 0.9652 | Avg LPIPS: 0.0159
+
+--- Epoch 79/200 ---
+EVAL => Avg PSNR: 35.1686 | Avg SSIM: 0.9655 | Avg LPIPS: 0.0153
+
+--- Epoch 80/200 ---
+EVAL => Avg PSNR: 35.0659 | Avg SSIM: 0.9652 | Avg LPIPS: 0.0153
+
+--- Epoch 81/200 ---
+EVAL => Avg PSNR: 35.0220 | Avg SSIM: 0.9650 | Avg LPIPS: 0.0154
+
+--- Epoch 82/200 ---
+EVAL => Avg PSNR: 35.1293 | Avg SSIM: 0.9656 | Avg LPIPS: 0.0158
+
+--- Epoch 83/200 ---
+EVAL => Avg PSNR: 35.1162 | Avg SSIM: 0.9655 | Avg LPIPS: 0.0149
+
+--- Epoch 84/200 ---
+EVAL => Avg PSNR: 35.1015 | Avg SSIM: 0.9654 | Avg LPIPS: 0.0155
+
+--- Epoch 85/200 ---
+EVAL => Avg PSNR: 34.8231 | Avg SSIM: 0.9640 | Avg LPIPS: 0.0167
+
+--- Epoch 86/200 ---
+EVAL => Avg PSNR: 35.0808 | Avg SSIM: 0.9652 | Avg LPIPS: 0.0156
+
+--- Epoch 87/200 ---
+EVAL => Avg PSNR: 34.9648 | Avg SSIM: 0.9646 | Avg LPIPS: 0.0171
+
+--- Epoch 88/200 ---
+EVAL => Avg PSNR: 35.0879 | Avg SSIM: 0.9654 | Avg LPIPS: 0.0151
+
+--- Epoch 89/200 ---
+EVAL => Avg PSNR: 35.0379 | Avg SSIM: 0.9652 | Avg LPIPS: 0.0157
+
+--- Epoch 90/200 ---
+EVAL => Avg PSNR: 34.9577 | Avg SSIM: 0.9647 | Avg LPIPS: 0.0166
+
+--- Epoch 91/200 ---
+EVAL => Avg PSNR: 34.6068 | Avg SSIM: 0.9623 | Avg LPIPS: 0.0182
+
+--- Epoch 92/200 ---
+EVAL => Avg PSNR: 34.9537 | Avg SSIM: 0.9648 | Avg LPIPS: 0.0164
+
+--- Epoch 93/200 ---
+EVAL => Avg PSNR: 34.9566 | Avg SSIM: 0.9650 | Avg LPIPS: 0.0152
+
+--- Epoch 94/200 ---
+EVAL => Avg PSNR: 34.9650 | Avg SSIM: 0.9649 | Avg LPIPS: 0.0164
+
+--- Epoch 95/200 ---
+EVAL => Avg PSNR: 34.9998 | Avg SSIM: 0.9648 | Avg LPIPS: 0.0157
+
+--- Epoch 96/200 ---
+EVAL => Avg PSNR: 34.8119 | Avg SSIM: 0.9643 | Avg LPIPS: 0.0163
+
+--- Epoch 97/200 ---
+EVAL => Avg PSNR: 34.4786 | Avg SSIM: 0.9629 | Avg LPIPS: 0.0176
+
+--- Epoch 98/200 ---
+EVAL => Avg PSNR: 34.8033 | Avg SSIM: 0.9640 | Avg LPIPS: 0.0166
+
+--- Epoch 99/200 ---
+EVAL => Avg PSNR: 34.9209 | Avg SSIM: 0.9648 | Avg LPIPS: 0.0160
+
+--- Epoch 100/200 ---
+EVAL => Avg PSNR: 34.9276 | Avg SSIM: 0.9647 | Avg LPIPS: 0.0154
+
+--- Epoch 101/200 ---
+EVAL => Avg PSNR: 34.9783 | Avg SSIM: 0.9648 | Avg LPIPS: 0.0164
+
+--- Epoch 102/200 ---
+EVAL => Avg PSNR: 34.6969 | Avg SSIM: 0.9636 | Avg LPIPS: 0.0169
+
+--- Epoch 103/200 ---
+EVAL => Avg PSNR: 34.8427 | Avg SSIM: 0.9640 | Avg LPIPS: 0.0165
+
+--- Epoch 104/200 ---
+EVAL => Avg PSNR: 34.9701 | Avg SSIM: 0.9652 | Avg LPIPS: 0.0157
+
+--- Epoch 105/200 ---
+EVAL => Avg PSNR: 35.0132 | Avg SSIM: 0.9651 | Avg LPIPS: 0.0158
+
+--- Epoch 106/200 ---
+EVAL => Avg PSNR: 34.9941 | Avg SSIM: 0.9650 | Avg LPIPS: 0.0150
+
+--- Epoch 107/200 ---
+EVAL => Avg PSNR: 34.9502 | Avg SSIM: 0.9649 | Avg LPIPS: 0.0161
+
+--- Epoch 108/200 ---
+EVAL => Avg PSNR: 34.9154 | Avg SSIM: 0.9650 | Avg LPIPS: 0.0156
+
+--- Epoch 109/200 ---
+EVAL => Avg PSNR: 34.9076 | Avg SSIM: 0.9648 | Avg LPIPS: 0.0157
+
+--- Epoch 110/200 ---
+EVAL => Avg PSNR: 34.9990 | Avg SSIM: 0.9653 | Avg LPIPS: 0.0154
+
+--- Epoch 111/200 ---
+EVAL => Avg PSNR: 34.9597 | Avg SSIM: 0.9650 | Avg LPIPS: 0.0151
+
+--- Epoch 112/200 ---
+EVAL => Avg PSNR: 34.7028 | Avg SSIM: 0.9640 | Avg LPIPS: 0.0166
+
+--- Epoch 113/200 ---
+EVAL => Avg PSNR: 34.9412 | Avg SSIM: 0.9650 | Avg LPIPS: 0.0157
+
+--- Epoch 114/200 ---
+EVAL => Avg PSNR: 34.9285 | Avg SSIM: 0.9648 | Avg LPIPS: 0.0156
+
+--- Epoch 115/200 ---
+EVAL => Avg PSNR: 34.8126 | Avg SSIM: 0.9642 | Avg LPIPS: 0.0170
+
+--- Epoch 116/200 ---
+EVAL => Avg PSNR: 34.9020 | Avg SSIM: 0.9650 | Avg LPIPS: 0.0155
+
+--- Epoch 117/200 ---
+EVAL => Avg PSNR: 34.9564 | Avg SSIM: 0.9649 | Avg LPIPS: 0.0151
+
+--- Epoch 118/200 ---
+EVAL => Avg PSNR: 35.0336 | Avg SSIM: 0.9653 | Avg LPIPS: 0.0154
+
+--- Epoch 119/200 ---
+EVAL => Avg PSNR: 34.8633 | Avg SSIM: 0.9648 | Avg LPIPS: 0.0157
+
+--- Epoch 120/200 ---
+EVAL => Avg PSNR: 34.9327 | Avg SSIM: 0.9649 | Avg LPIPS: 0.0161
+
+--- Epoch 121/200 ---
+EVAL => Avg PSNR: 34.9650 | Avg SSIM: 0.9652 | Avg LPIPS: 0.0150
+
+--- Epoch 122/200 ---
+EVAL => Avg PSNR: 34.8078 | Avg SSIM: 0.9644 | Avg LPIPS: 0.0162
+
+--- Epoch 123/200 ---
+EVAL => Avg PSNR: 34.6985 | Avg SSIM: 0.9641 | Avg LPIPS: 0.0166
+
+--- Epoch 124/200 ---
+EVAL => Avg PSNR: 34.9889 | Avg SSIM: 0.9654 | Avg LPIPS: 0.0155
+
+--- Epoch 125/200 ---
+EVAL => Avg PSNR: 35.0057 | Avg SSIM: 0.9651 | Avg LPIPS: 0.0149
+
+--- Epoch 126/200 ---
+EVAL => Avg PSNR: 34.8492 | Avg SSIM: 0.9645 | Avg LPIPS: 0.0149
+
+--- Epoch 127/200 ---
+EVAL => Avg PSNR: 34.3692 | Avg SSIM: 0.9613 | Avg LPIPS: 0.0183
+
+--- Epoch 128/200 ---
+EVAL => Avg PSNR: 34.9056 | Avg SSIM: 0.9649 | Avg LPIPS: 0.0155
+
+--- Epoch 129/200 ---
+EVAL => Avg PSNR: 34.7637 | Avg SSIM: 0.9640 | Avg LPIPS: 0.0162
+
+--- Epoch 130/200 ---
+EVAL => Avg PSNR: 34.8301 | Avg SSIM: 0.9643 | Avg LPIPS: 0.0162
+
+--- Epoch 131/200 ---
+EVAL => Avg PSNR: 34.8927 | Avg SSIM: 0.9650 | Avg LPIPS: 0.0152
+
+--- Epoch 132/200 ---
+EVAL => Avg PSNR: 34.8918 | Avg SSIM: 0.9647 | Avg LPIPS: 0.0150
+
+--- Epoch 133/200 ---
+EVAL => Avg PSNR: 34.7223 | Avg SSIM: 0.9637 | Avg LPIPS: 0.0167
+
+--- Epoch 134/200 ---
+EVAL => Avg PSNR: 34.9100 | Avg SSIM: 0.9649 | Avg LPIPS: 0.0151
+
+--- Epoch 135/200 ---
+EVAL => Avg PSNR: 34.9803 | Avg SSIM: 0.9652 | Avg LPIPS: 0.0147
+
+--- Epoch 136/200 ---
+EVAL => Avg PSNR: 34.8645 | Avg SSIM: 0.9647 | Avg LPIPS: 0.0159
+
+--- Epoch 137/200 ---
+EVAL => Avg PSNR: 34.9431 | Avg SSIM: 0.9651 | Avg LPIPS: 0.0148
+
+--- Epoch 138/200 ---
+EVAL => Avg PSNR: 34.9370 | Avg SSIM: 0.9649 | Avg LPIPS: 0.0153
+
+--- Epoch 139/200 ---
+EVAL => Avg PSNR: 34.8106 | Avg SSIM: 0.9645 | Avg LPIPS: 0.0159
+
+--- Epoch 140/200 ---
+EVAL => Avg PSNR: 34.9180 | Avg SSIM: 0.9649 | Avg LPIPS: 0.0159
+
+--- Epoch 141/200 ---
+EVAL => Avg PSNR: 34.8095 | Avg SSIM: 0.9646 | Avg LPIPS: 0.0155
+
+--- Epoch 142/200 ---
+EVAL => Avg PSNR: 34.7982 | Avg SSIM: 0.9646 | Avg LPIPS: 0.0154
+
+--- Epoch 143/200 ---
+EVAL => Avg PSNR: 34.7558 | Avg SSIM: 0.9641 | Avg LPIPS: 0.0156
+
+--- Epoch 144/200 ---
+EVAL => Avg PSNR: 34.6496 | Avg SSIM: 0.9634 | Avg LPIPS: 0.0161
+
+--- Epoch 145/200 ---
+EVAL => Avg PSNR: 34.8689 | Avg SSIM: 0.9647 | Avg LPIPS: 0.0151
+
+--- Epoch 146/200 ---
+EVAL => Avg PSNR: 34.8216 | Avg SSIM: 0.9647 | Avg LPIPS: 0.0153
+
+--- Epoch 147/200 ---
+EVAL => Avg PSNR: 34.7710 | Avg SSIM: 0.9643 | Avg LPIPS: 0.0157
+
+--- Epoch 148/200 ---
+EVAL => Avg PSNR: 34.8959 | Avg SSIM: 0.9649 | Avg LPIPS: 0.0154
+
+--- Epoch 149/200 ---
+EVAL => Avg PSNR: 34.6644 | Avg SSIM: 0.9638 | Avg LPIPS: 0.0170
+
+--- Epoch 150/200 ---
+EVAL => Avg PSNR: 34.6701 | Avg SSIM: 0.9639 | Avg LPIPS: 0.0162
+
+--- Epoch 151/200 ---
+EVAL => Avg PSNR: 34.7572 | Avg SSIM: 0.9641 | Avg LPIPS: 0.0156
+
+--- Epoch 152/200 ---
+EVAL => Avg PSNR: 34.7082 | Avg SSIM: 0.9639 | Avg LPIPS: 0.0159
+
+--- Epoch 153/200 ---
+EVAL => Avg PSNR: 34.7708 | Avg SSIM: 0.9641 | Avg LPIPS: 0.0157
+
+--- Epoch 154/200 ---
+EVAL => Avg PSNR: 34.8156 | Avg SSIM: 0.9645 | Avg LPIPS: 0.0156
+
+--- Epoch 155/200 ---
+EVAL => Avg PSNR: 34.6807 | Avg SSIM: 0.9637 | Avg LPIPS: 0.0166
+
+--- Epoch 156/200 ---
+EVAL => Avg PSNR: 34.8413 | Avg SSIM: 0.9644 | Avg LPIPS: 0.0152
+
+--- Epoch 157/200 ---
+EVAL => Avg PSNR: 34.7455 | Avg SSIM: 0.9642 | Avg LPIPS: 0.0154
+
+--- Epoch 158/200 ---
+EVAL => Avg PSNR: 34.7434 | Avg SSIM: 0.9641 | Avg LPIPS: 0.0151
+
+--- Epoch 159/200 ---
+EVAL => Avg PSNR: 34.8641 | Avg SSIM: 0.9646 | Avg LPIPS: 0.0155
+
+--- Epoch 160/200 ---
+EVAL => Avg PSNR: 34.8729 | Avg SSIM: 0.9648 | Avg LPIPS: 0.0149
+
+--- Epoch 161/200 ---
+EVAL => Avg PSNR: 34.6879 | Avg SSIM: 0.9638 | Avg LPIPS: 0.0163
+
+--- Epoch 162/200 ---
+EVAL => Avg PSNR: 34.6177 | Avg SSIM: 0.9634 | Avg LPIPS: 0.0163
+
+--- Epoch 163/200 ---
+EVAL => Avg PSNR: 34.7353 | Avg SSIM: 0.9642 | Avg LPIPS: 0.0166
+
+--- Epoch 164/200 ---
+EVAL => Avg PSNR: 34.7186 | Avg SSIM: 0.9641 | Avg LPIPS: 0.0158
+
+--- Epoch 165/200 ---
+EVAL => Avg PSNR: 34.9057 | Avg SSIM: 0.9648 | Avg LPIPS: 0.0151
+
+--- Epoch 166/200 ---
+EVAL => Avg PSNR: 34.8841 | Avg SSIM: 0.9646 | Avg LPIPS: 0.0149
+
+--- Epoch 167/200 ---
+EVAL => Avg PSNR: 34.8144 | Avg SSIM: 0.9645 | Avg LPIPS: 0.0157
+
+--- Epoch 168/200 ---
+EVAL => Avg PSNR: 34.7195 | Avg SSIM: 0.9637 | Avg LPIPS: 0.0156
+
+--- Epoch 169/200 ---
+EVAL => Avg PSNR: 34.8007 | Avg SSIM: 0.9644 | Avg LPIPS: 0.0161
+
+--- Epoch 170/200 ---
+EVAL => Avg PSNR: 34.7126 | Avg SSIM: 0.9641 | Avg LPIPS: 0.0157
+
+--- Epoch 171/200 ---
+EVAL => Avg PSNR: 34.6972 | Avg SSIM: 0.9639 | Avg LPIPS: 0.0158
+
+--- Epoch 172/200 ---
+EVAL => Avg PSNR: 34.7008 | Avg SSIM: 0.9639 | Avg LPIPS: 0.0158
+
+--- Epoch 173/200 ---
+EVAL => Avg PSNR: 34.6920 | Avg SSIM: 0.9640 | Avg LPIPS: 0.0160
+
+--- Epoch 174/200 ---
+EVAL => Avg PSNR: 34.6635 | Avg SSIM: 0.9638 | Avg LPIPS: 0.0162
+
+--- Epoch 175/200 ---
+EVAL => Avg PSNR: 34.7968 | Avg SSIM: 0.9643 | Avg LPIPS: 0.0155
+
+--- Epoch 176/200 ---
+EVAL => Avg PSNR: 34.8489 | Avg SSIM: 0.9646 | Avg LPIPS: 0.0153
+
+--- Epoch 177/200 ---
+EVAL => Avg PSNR: 34.7629 | Avg SSIM: 0.9641 | Avg LPIPS: 0.0150
+
+--- Epoch 178/200 ---
+EVAL => Avg PSNR: 34.7295 | Avg SSIM: 0.9641 | Avg LPIPS: 0.0161
+
+--- Epoch 179/200 ---
+EVAL => Avg PSNR: 34.7297 | Avg SSIM: 0.9639 | Avg LPIPS: 0.0155
+
+--- Epoch 180/200 ---
+EVAL => Avg PSNR: 34.5821 | Avg SSIM: 0.9633 | Avg LPIPS: 0.0167
+
+--- Epoch 181/200 ---
+EVAL => Avg PSNR: 34.7169 | Avg SSIM: 0.9641 | Avg LPIPS: 0.0154
+
+--- Epoch 182/200 ---
+EVAL => Avg PSNR: 34.7563 | Avg SSIM: 0.9642 | Avg LPIPS: 0.0156
+
+--- Epoch 183/200 ---
+EVAL => Avg PSNR: 34.2731 | Avg SSIM: 0.9620 | Avg LPIPS: 0.0178
+
+--- Epoch 184/200 ---
+EVAL => Avg PSNR: 34.5823 | Avg SSIM: 0.9634 | Avg LPIPS: 0.0169
+
+--- Epoch 185/200 ---
+EVAL => Avg PSNR: 34.7331 | Avg SSIM: 0.9640 | Avg LPIPS: 0.0154
+
+--- Epoch 186/200 ---
+EVAL => Avg PSNR: 34.6435 | Avg SSIM: 0.9636 | Avg LPIPS: 0.0167
+
+--- Epoch 187/200 ---
+EVAL => Avg PSNR: 34.5505 | Avg SSIM: 0.9633 | Avg LPIPS: 0.0166
+
+--- Epoch 188/200 ---
+EVAL => Avg PSNR: 34.7216 | Avg SSIM: 0.9639 | Avg LPIPS: 0.0156
+
+--- Epoch 189/200 ---
+EVAL => Avg PSNR: 34.6368 | Avg SSIM: 0.9637 | Avg LPIPS: 0.0160
+
+--- Epoch 190/200 ---
+EVAL => Avg PSNR: 34.7168 | Avg SSIM: 0.9639 | Avg LPIPS: 0.0153
+
+--- Epoch 191/200 ---
+EVAL => Avg PSNR: 34.4030 | Avg SSIM: 0.9622 | Avg LPIPS: 0.0175
+
+--- Epoch 192/200 ---
+EVAL => Avg PSNR: 34.7393 | Avg SSIM: 0.9641 | Avg LPIPS: 0.0158
+
+--- Epoch 193/200 ---
+EVAL => Avg PSNR: 34.7083 | Avg SSIM: 0.9640 | Avg LPIPS: 0.0154
+
+--- Epoch 194/200 ---
+EVAL => Avg PSNR: 34.5460 | Avg SSIM: 0.9629 | Avg LPIPS: 0.0166
+
+--- Epoch 195/200 ---
+EVAL => Avg PSNR: 34.6056 | Avg SSIM: 0.9634 | Avg LPIPS: 0.0158
+
+--- Epoch 196/200 ---
+EVAL => Avg PSNR: 34.6035 | Avg SSIM: 0.9633 | Avg LPIPS: 0.0159
+
+--- Epoch 197/200 ---
+EVAL => Avg PSNR: 34.6328 | Avg SSIM: 0.9635 | Avg LPIPS: 0.0160
+
+--- Epoch 198/200 ---
+EVAL => Avg PSNR: 34.6235 | Avg SSIM: 0.9634 | Avg LPIPS: 0.0160
+
+--- Epoch 199/200 ---
+EVAL => Avg PSNR: 34.6339 | Avg SSIM: 0.9636 | Avg LPIPS: 0.0157
+
+--- Epoch 200/200 ---
+EVAL => Avg PSNR: 34.6969 | Avg SSIM: 0.9637 | Avg LPIPS: 0.0154

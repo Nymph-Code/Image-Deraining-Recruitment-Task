@@ -101,9 +101,6 @@ def main():
     elif args.model == "rainnet":
         model = RainNet().to(device)
 
-
-
-
     lpips_fn = lpips.LPIPS(net='alex').to(device)
 
     if args.loss == "l1":                
