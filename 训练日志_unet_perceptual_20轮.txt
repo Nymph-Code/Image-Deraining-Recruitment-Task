@@ -1,0 +1,101 @@
+unet + perceptual loss
+命令: python main.py --data_dir ./data/Rain200L --model unet --use_perceptual_loss --epochs 20
+batch_size=8  lr=1e-4  lambda_pixel=1.0  lambda_perceptual=0.1
+训练集 3600 张 / 测试集 400 张，每轮 225 次迭代，约 38 秒
+
+--- Epoch 1/20 ---
+pixel_loss=0.181    perceptual_loss=0.15
+EVAL => Avg PSNR: 27.6001 | Avg SSIM: 0.8317 | Avg LPIPS: 0.0862
+=> Saving checkpoint
+
+--- Epoch 2/20 ---
+pixel_loss=0.152    perceptual_loss=0.13
+EVAL => Avg PSNR: 28.8944 | Avg SSIM: 0.8652 | Avg LPIPS: 0.0746
+=> Saving checkpoint
+
+--- Epoch 3/20 ---
+pixel_loss=0.118    perceptual_loss=0.0961
+EVAL => Avg PSNR: 29.4957 | Avg SSIM: 0.8807 | Avg LPIPS: 0.0661
+=> Saving checkpoint
+
+--- Epoch 4/20 ---
+pixel_loss=0.134    perceptual_loss=0.11
+EVAL => Avg PSNR: 30.0189 | Avg SSIM: 0.8902 | Avg LPIPS: 0.0608
+=> Saving checkpoint
+
+--- Epoch 5/20 ---
+pixel_loss=0.123    perceptual_loss=0.103
+EVAL => Avg PSNR: 30.0849 | Avg SSIM: 0.8921 | Avg LPIPS: 0.0584
+=> Saving checkpoint
+
+--- Epoch 6/20 ---
+pixel_loss=0.118    perceptual_loss=0.0967
+EVAL => Avg PSNR: 30.2824 | Avg SSIM: 0.8969 | Avg LPIPS: 0.0551
+=> Saving checkpoint
+
+--- Epoch 7/20 ---
+pixel_loss=0.0963   perceptual_loss=0.0775
+EVAL => Avg PSNR: 30.5174 | Avg SSIM: 0.9002 | Avg LPIPS: 0.0526
+=> Saving checkpoint
+
+--- Epoch 8/20 ---
+pixel_loss=0.106    perceptual_loss=0.0851
+EVAL => Avg PSNR: 30.2649 | Avg SSIM: 0.8949 | Avg LPIPS: 0.0551
+
+--- Epoch 9/20 ---
+pixel_loss=0.122    perceptual_loss=0.102
+EVAL => Avg PSNR: 30.5116 | Avg SSIM: 0.8990 | Avg LPIPS: 0.0509
+
+--- Epoch 10/20 ---
+pixel_loss=0.0917   perceptual_loss=0.0738
+EVAL => Avg PSNR: 30.7780 | Avg SSIM: 0.9063 | Avg LPIPS: 0.0486
+=> Saving checkpoint
+
+--- Epoch 11/20 ---
+pixel_loss=0.0893   perceptual_loss=0.0715
+EVAL => Avg PSNR: 30.7779 | Avg SSIM: 0.9042 | Avg LPIPS: 0.0475
+
+--- Epoch 12/20 ---
+pixel_loss=0.0877   perceptual_loss=0.0676
+EVAL => Avg PSNR: 30.8609 | Avg SSIM: 0.9053 | Avg LPIPS: 0.0473
+=> Saving checkpoint
+
+--- Epoch 13/20 ---
+pixel_loss=0.0894   perceptual_loss=0.0709
+EVAL => Avg PSNR: 31.0176 | Avg SSIM: 0.9099 | Avg LPIPS: 0.0450
+=> Saving checkpoint
+
+--- Epoch 14/20 ---
+pixel_loss=0.0747   perceptual_loss=0.059
+EVAL => Avg PSNR: 31.0451 | Avg SSIM: 0.9108 | Avg LPIPS: 0.0446
+=> Saving checkpoint
+
+--- Epoch 15/20 ---
+pixel_loss=0.0762   perceptual_loss=0.0603
+EVAL => Avg PSNR: 31.0696 | Avg SSIM: 0.9109 | Avg LPIPS: 0.0443
+=> Saving checkpoint
+
+--- Epoch 16/20 ---
+pixel_loss=0.0757   perceptual_loss=0.0573
+EVAL => Avg PSNR: 31.1273 | Avg SSIM: 0.9136 | Avg LPIPS: 0.0434
+=> Saving checkpoint
+
+--- Epoch 17/20 ---
+pixel_loss=0.0829   perceptual_loss=0.0639
+EVAL => Avg PSNR: 30.9953 | Avg SSIM: 0.9098 | Avg LPIPS: 0.0453
+
+--- Epoch 18/20 ---
+pixel_loss=0.0693   perceptual_loss=0.0523
+EVAL => Avg PSNR: 31.1081 | Avg SSIM: 0.9106 | Avg LPIPS: 0.0442
+
+--- Epoch 19/20 ---
+pixel_loss=0.0748   perceptual_loss=0.0582
+EVAL => Avg PSNR: 31.2338 | Avg SSIM: 0.9151 | Avg LPIPS: 0.0428
+=> Saving checkpoint
+
+--- Epoch 20/20 ---
+pixel_loss=0.0795   perceptual_loss=0.0616
+EVAL => Avg PSNR: 31.0597 | Avg SSIM: 0.9099 | Avg LPIPS: 0.0451
+
+最优轮次: Epoch 19
+      PSNR 31.2338 | SSIM 0.9151 | LPIPS 0.0428

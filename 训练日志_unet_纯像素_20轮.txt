@@ -1,0 +1,102 @@
+unet + 纯像素 L1（对照组）
+命令: python main.py --data_dir ./data/Rain200L --model unet --epochs 20
+batch_size=8  lr=1e-4  lambda_pixel=1.0
+训练集 3600 张 / 测试集 400 张，每轮 225 次迭代，约 31 秒
+
+--- Epoch 1/20 ---
+pixel_loss=0.0208
+EVAL => Avg PSNR: 29.5139 | Avg SSIM: 0.8713 | Avg LPIPS: 0.0925
+=> Saving checkpoint
+
+--- Epoch 2/20 ---
+pixel_loss=0.0237
+EVAL => Avg PSNR: 30.3803 | Avg SSIM: 0.8987 | Avg LPIPS: 0.0696
+=> Saving checkpoint
+
+--- Epoch 3/20 ---
+pixel_loss=0.0194
+EVAL => Avg PSNR: 30.7757 | Avg SSIM: 0.9058 | Avg LPIPS: 0.0623
+=> Saving checkpoint
+
+--- Epoch 4/20 ---
+pixel_loss=0.0151
+EVAL => Avg PSNR: 30.9457 | Avg SSIM: 0.9084 | Avg LPIPS: 0.0594
+=> Saving checkpoint
+
+--- Epoch 5/20 ---
+pixel_loss=0.0149
+EVAL => Avg PSNR: 31.4031 | Avg SSIM: 0.9156 | Avg LPIPS: 0.0528
+=> Saving checkpoint
+
+--- Epoch 6/20 ---
+pixel_loss=0.0167
+EVAL => Avg PSNR: 31.6149 | Avg SSIM: 0.9186 | Avg LPIPS: 0.0503
+=> Saving checkpoint
+
+--- Epoch 7/20 ---
+pixel_loss=0.0162
+EVAL => Avg PSNR: 31.5930 | Avg SSIM: 0.9191 | Avg LPIPS: 0.0497
+
+--- Epoch 8/20 ---
+pixel_loss=0.0124
+EVAL => Avg PSNR: 31.8443 | Avg SSIM: 0.9245 | Avg LPIPS: 0.0458
+=> Saving checkpoint
+
+--- Epoch 9/20 ---
+pixel_loss=0.0125
+EVAL => Avg PSNR: 32.0833 | Avg SSIM: 0.9258 | Avg LPIPS: 0.0432
+=> Saving checkpoint
+
+--- Epoch 10/20 ---
+pixel_loss=0.0157
+EVAL => Avg PSNR: 32.2400 | Avg SSIM: 0.9273 | Avg LPIPS: 0.0421
+=> Saving checkpoint
+
+--- Epoch 11/20 ---
+pixel_loss=0.0141
+EVAL => Avg PSNR: 32.1447 | Avg SSIM: 0.9263 | Avg LPIPS: 0.0420
+
+--- Epoch 12/20 ---
+pixel_loss=0.0105
+EVAL => Avg PSNR: 32.4388 | Avg SSIM: 0.9303 | Avg LPIPS: 0.0405
+=> Saving checkpoint
+
+--- Epoch 13/20 ---
+pixel_loss=0.018
+EVAL => Avg PSNR: 31.9504 | Avg SSIM: 0.9274 | Avg LPIPS: 0.0428
+
+--- Epoch 14/20 ---
+pixel_loss=0.0134
+EVAL => Avg PSNR: 32.4504 | Avg SSIM: 0.9310 | Avg LPIPS: 0.0399
+=> Saving checkpoint
+
+--- Epoch 15/20 ---
+pixel_loss=0.0165
+EVAL => Avg PSNR: 32.6677 | Avg SSIM: 0.9330 | Avg LPIPS: 0.0374
+=> Saving checkpoint
+
+--- Epoch 16/20 ---
+pixel_loss=0.0158
+EVAL => Avg PSNR: 32.8422 | Avg SSIM: 0.9361 | Avg LPIPS: 0.0359
+=> Saving checkpoint
+
+--- Epoch 17/20 ---
+pixel_loss=0.0138
+EVAL => Avg PSNR: 32.7897 | Avg SSIM: 0.9354 | Avg LPIPS: 0.0360
+
+--- Epoch 18/20 ---
+pixel_loss=0.0139
+EVAL => Avg PSNR: 32.8560 | Avg SSIM: 0.9372 | Avg LPIPS: 0.0351
+=> Saving checkpoint
+
+--- Epoch 19/20 ---
+pixel_loss=0.0126
+EVAL => Avg PSNR: 32.9006 | Avg SSIM: 0.9374 | Avg LPIPS: 0.0340
+=> Saving checkpoint
+
+--- Epoch 20/20 ---
+pixel_loss=0.0122
+EVAL => Avg PSNR: 32.7694 | Avg SSIM: 0.9383 | Avg LPIPS: 0.0333
+
+最优轮次: Epoch 19（按 PSNR 保存）
+      PSNR 32.9006 | SSIM 0.9374 | LPIPS 0.0340
